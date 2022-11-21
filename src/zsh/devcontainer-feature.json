@@ -1,7 +1,7 @@
 {
   "name": "Opinionated zsh config",
   "id": "zsh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Opinionated zsh config",
   "options": {
     "omz_version": {
