@@ -3,6 +3,7 @@ set -e
 
 source dev-container-features-test-lib
 
+check "vi is installed" vim --version
 check "vim is installed" vim --version
 check "amix/vimrc is installed" test -d "/usr/local/vim_runtime/"
 check ".vimrc is installed" test -f "/root/.vimrc"

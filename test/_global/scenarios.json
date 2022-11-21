@@ -1,13 +1,13 @@
 {
-    "color_and_hello": {
-        "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
-        "features": {
-            "color": {
-                "favorite": "purple"
-            },
-            "hello": {
-                "greeting": "Greetings"
-            }
-        }
+  "devtools": {
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+      "zsh": {
+        "omz_path": "/root/.oh-my-zsh"
+      },
+      "vim": {
+        "amix_vimrc_path": "/root/.vim_runtime"
+      }
     }
+  }
 }
