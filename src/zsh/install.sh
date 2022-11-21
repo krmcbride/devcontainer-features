@@ -8,7 +8,7 @@ PURE_VERSION=${PURE_VERSION:-master}
 
 echo "Installing git, zsh and oh-my-zsh version ${OMZ_VERSION}"
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
+apt-get update && apt-get install -y --no-install-recommends \
   git \
   zsh \
   && apt-get clean \
