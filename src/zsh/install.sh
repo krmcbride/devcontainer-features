@@ -6,6 +6,8 @@ OMZ_VERSION=${OMZ_VERSION:-master}
 PURE_PATH=${PURE_PATH:-/usr/local/pure-prompt}
 PURE_VERSION=${PURE_VERSION:-master}
 
+cd /root
+
 echo "Installing git, zsh and oh-my-zsh version ${OMZ_VERSION}"
 
 apt-get update && apt-get install -y --no-install-recommends \
