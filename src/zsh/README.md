@@ -15,10 +15,7 @@ Opinionated zsh config
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| omz_version | The omz git refspec to checkout | string | master |
-| omz_path | The path to clone omz to | string | /usr/local/oh-my-zsh |
-| pure_version | The pure git refspec to checkout | string | main |
-| pure_path | The path to clone omz to | string | /usr/local/pure-prompt |
+| omz_path | The path to clone omz to | string | /root/.oh-my-zsh |
 
 
 
