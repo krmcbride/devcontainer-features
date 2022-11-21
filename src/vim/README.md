@@ -1,13 +1,13 @@
 
-# Opinionated zsh config (zsh)
+# Opinionated vim config (vim)
 
-Opinionated zsh config
+Opinionated vim config
 
 ## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/krmcbride/devcontainer-features/zsh:1": {}
+    "ghcr.io/krmcbride/devcontainer-features/vim:1": {}
 }
 ```
 
@@ -15,13 +15,11 @@ Opinionated zsh config
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| omz_version | The omz git refspec to checkout | string | master |
-| omz_path | The path to clone omz to | string | /usr/local/oh-my-zsh |
-| pure_version | The pure git refspec to checkout | string | main |
-| pure_path | The path to clone omz to | string | /usr/local/pure-prompt |
+| amix_vimrc_version | The amix/vimrc git refspec to checkout | string | master |
+| amix_vimrc_path | The path to clone amix/vimrc to | string | /usr/local/vim_runtime |
 
 
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/krmcbride/devcontainer-features/blob/main/src/zsh/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/krmcbride/devcontainer-features/blob/main/src/vim/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
