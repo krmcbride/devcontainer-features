@@ -1,28 +1,17 @@
 {
   "name": "Opinionated zsh config",
   "id": "zsh",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Opinionated zsh config",
   "options": {
-    "omz_version": {
-      "type": "string",
-      "default": "master",
-      "description": "The omz git refspec to checkout"
-    },
     "omz_path": {
       "type": "string",
-      "default": "/usr/local/oh-my-zsh",
-      "description": "The path to clone omz to"
-    },
-    "pure_version": {
-      "type": "string",
-      "default": "main",
-      "description": "The pure git refspec to checkout"
-    },
-    "pure_path": {
-      "type": "string",
-      "default": "/usr/local/pure-prompt",
+      "default": "/root/.oh-my-zsh",
       "description": "The path to clone omz to"
     }
-  }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils",
+    "ghcr.io/devcontainers/features/git"
+  ]
 }

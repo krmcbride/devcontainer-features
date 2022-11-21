@@ -2,12 +2,9 @@
   "devtools": {
     "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-      "zsh": {
-        "omz_path": "/root/.oh-my-zsh"
-      },
-      "vim": {
-        "amix_vimrc_path": "/root/.vim_runtime"
-      }
+      "ghcr.io/devcontainers/features/common-utils:1": {},
+      "ghcr.io/devcontainers/features/git:1": {},
+      "zsh": {}
     }
   }
 }
