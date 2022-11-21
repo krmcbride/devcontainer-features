@@ -11,6 +11,7 @@ cd /root
 echo "Installing git, zsh and oh-my-zsh version ${OMZ_VERSION}"
 
 apt-get update && apt-get install -y --no-install-recommends \
+  ca-certificates \
   git \
   zsh \
   && apt-get clean \
