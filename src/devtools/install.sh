@@ -35,4 +35,4 @@ git clone https://github.com/so-fancy/diff-so-fancy.git "${DSF_PATH}"
 cd "${DSF_PATH}"
 git checkout -b tmp "${DSF_VERSION}"
 rm -rf .git
-ln -s ./diff-so-fancy /usr/local/bin/diff-so-fancy
+ln -s "${DSF_PATH}/diff-so-fancy" /usr/local/bin/diff-so-fancy
