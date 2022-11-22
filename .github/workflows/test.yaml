@@ -13,8 +13,7 @@ jobs:
     strategy:
       matrix:
         features:
-          - zsh
-          - vim
+          - devtools
         baseImage:
           - debian:latest
           - ubuntu:latest

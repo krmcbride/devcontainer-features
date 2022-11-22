@@ -1,0 +1,32 @@
+{
+  "name": "Opinionated selection of dev tools",
+  "id": "devtools",
+  "version": "1.0.0",
+  "description": "Opinionated selection of dev tools to augment those already available",
+  "options": {
+    "amix_vimrc_version": {
+      "type": "string",
+      "default": "master",
+      "description": "The amix/vimrc git refspec to checkout"
+    },
+    "amix_vimrc_path": {
+      "type": "string",
+      "default": "/root/.vim_runtime",
+      "description": "The path to clone amix/vimrc to"
+    },
+    "dsf_version": {
+      "type": "string",
+      "default": "master",
+      "description": "The diff-so-fancy refspec to checkout"
+    },
+    "dsf_path": {
+      "type": "string",
+      "default": "/usr/local/diff-so-fancy",
+      "description": "The path to clone diff-so-fancy to"
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/common-utils",
+    "ghcr.io/devcontainers/features/git"
+  ]
+}
