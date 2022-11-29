@@ -39,6 +39,7 @@ catch
 endtry
 EOF
 
+rm -rf "${DSF_PATH}"
 git clone https://github.com/so-fancy/diff-so-fancy.git "${DSF_PATH}"
 cd "${DSF_PATH}"
 git checkout -b tmp "${DSF_VERSION}"
