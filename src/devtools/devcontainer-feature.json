@@ -1,7 +1,7 @@
 {
   "name": "Opinionated selection of dev tools",
   "id": "devtools",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Opinionated selection of dev tools to augment those already available",
   "options": {
     "amix_vimrc_version": {
@@ -11,12 +11,12 @@
     },
     "amix_vimrc_path": {
       "type": "string",
-      "default": "/root/.vim_runtime",
+      "default": "/home/vscode/.vim_runtime",
       "description": "The path to clone amix/vimrc to"
     },
     "vimrc_path": {
       "type": "string",
-      "default": "/root/.vimrc",
+      "default": "/home/vscode/.vimrc",
       "description": ".vimrc path"
     },
     "dsf_version": {

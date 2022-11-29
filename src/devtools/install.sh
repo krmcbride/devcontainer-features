@@ -1,7 +1,7 @@
 #!/bin/sh
 set -e
 
-VIMRC_PATH=${VIMRC_PATH:-/root/.vimrc}
+VIMRC_PATH=${VIMRC_PATH:-/home/vscode/.vimrc}
 AMIX_VIMRC_PATH=${AMIX_VIMRC_PATH:-/usr/local/vim_runtime}
 AMIX_VIMRC_VERSION=${AMIX_VIMRC_VERSION:-master}
 DSF_PATH=${DSF_PATH:-/usr/local/diff-so-fancy}
