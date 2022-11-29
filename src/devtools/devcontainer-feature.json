@@ -1,7 +1,7 @@
 {
   "name": "Opinionated selection of dev tools",
   "id": "devtools",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Opinionated selection of dev tools to augment those already available",
   "options": {
     "amix_vimrc_version": {

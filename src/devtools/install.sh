@@ -13,7 +13,7 @@ if ! type git > /dev/null 2>&1; then
   apt-get -y install --no-install-recommends git ca-certificates
 fi
 apt-get remove -y vim-tiny
-apt-get install -y --no-install-recommends vim
+apt-get install -y --no-install-recommends vim make
 apt-get clean
 rm -rf /var/lib/apt/lists/*
 
