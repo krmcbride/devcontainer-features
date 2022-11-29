@@ -1,0 +1,8 @@
+{
+  "name": "Google Cloud CLI",
+  "id": "google-cloud-cli",
+  "version": "1.0.0",
+  "description": "Google Cloud CLI (gcloud and components)",
+  "options": {},
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
