@@ -7,6 +7,10 @@ DSF_PATH=${DSF_PATH:-/usr/local/diff-so-fancy}
 DSF_VERSION=${DSF_VERSION:-master}
 
 apt-get update
+# Install git if not already installed
+if ! type git > /dev/null 2>&1; then
+  apt-get -y install --no-install-recommends git ca-certificates
+fi
 apt-get install -y --no-install-recommends vim
 apt-get clean
 rm -rf /var/lib/apt/lists/*
