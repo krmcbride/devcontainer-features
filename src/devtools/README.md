@@ -17,6 +17,7 @@ Opinionated selection of dev tools to augment those already available
 |-----|-----|-----|-----|
 | amix_vimrc_version | The amix/vimrc git refspec to checkout | string | master |
 | amix_vimrc_path | The path to clone amix/vimrc to | string | /root/.vim_runtime |
+| vimrc_path | .vimrc path | string | /root/.vimrc |
 | dsf_version | The diff-so-fancy refspec to checkout | string | master |
 | dsf_path | The path to clone diff-so-fancy to | string | /usr/local/diff-so-fancy |
 
