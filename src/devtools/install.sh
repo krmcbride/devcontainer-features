@@ -23,8 +23,6 @@ git clone https://github.com/amix/vimrc.git "${AMIX_VIMRC_PATH}"
 cd "${AMIX_VIMRC_PATH}"
 git checkout -b tmp "${AMIX_VIMRC_VERSION}"
 rm -rf .git
-cd
-chown -R "${USERNAME}:${USERNAME}" "${AMIX_VIMRC_PATH}"
 
 rm -rf "${VIMRC_PATH}"
 cat > "${VIMRC_PATH}" \
@@ -41,7 +39,11 @@ try
 catch
 endtry
 EOF
-chown "${USERNAME}:${USERNAME}" "${VIMRC_PATH}"
+
+if id "${USERNAME}" >/dev/null 2>&1; then
+  chown -R "${USERNAME}:${USERNAME}" "${AMIX_VIMRC_PATH}"
+  chown "${USERNAME}:${USERNAME}" "${VIMRC_PATH}"
+fi
 
 rm -rf "${DSF_PATH}"
 git clone https://github.com/so-fancy/diff-so-fancy.git "${DSF_PATH}"
