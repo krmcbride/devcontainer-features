@@ -1,7 +1,7 @@
 {
   "name": "Opinionated selection of dev tools",
   "id": "devtools",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Opinionated selection of dev tools to augment those already available",
   "options": {
     "amix_vimrc_version": {
@@ -18,6 +18,11 @@
       "type": "string",
       "default": "/home/vscode/.vimrc",
       "description": ".vimrc path"
+    },
+    "username": {
+      "type": "string",
+      "default": "vscode",
+      "description": "the user who owns the vim config"
     },
     "dsf_version": {
       "type": "string",
