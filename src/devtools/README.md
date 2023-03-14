@@ -21,6 +21,8 @@ Opinionated selection of dev tools to augment those already available
 | username | the user who owns the vim config | string | vscode |
 | dsf_version | The diff-so-fancy refspec to checkout | string | master |
 | dsf_path | The path to clone diff-so-fancy to | string | /usr/local/diff-so-fancy |
+| pure_version | The pure prompt refspec to checkout | string | main |
+| pure_path | The path to clone pure-prompt to | string | /usr/local/pure-prompt |
 
 
 
