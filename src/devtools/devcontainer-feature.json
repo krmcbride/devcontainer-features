@@ -33,6 +33,16 @@
       "type": "string",
       "default": "/usr/local/diff-so-fancy",
       "description": "The path to clone diff-so-fancy to"
+    },
+    "pure_version": {
+      "type": "string",
+      "default": "master",
+      "description": "The pure prompt refspec to checkout"
+    },
+    "pure_path": {
+      "type": "string",
+      "default": "/usr/local/pure-prompt",
+      "description": "The path to clone pure-prompt to"
     }
   },
   "installsAfter": [

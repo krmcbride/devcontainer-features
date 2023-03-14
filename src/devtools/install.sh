@@ -51,3 +51,9 @@ cd "${DSF_PATH}"
 git checkout -b tmp "${DSF_VERSION}"
 rm -rf .git
 ln -sf "${DSF_PATH}/diff-so-fancy" /usr/local/bin/diff-so-fancy
+
+rm -rf "${PURE_PATH}"
+git clone https://github.com/sindresorhus/pure.git "${PURE_PATH}"
+cd "${PURE_PATH}"
+git checkout -b tmp "${PURE_VERSION}"
+rm -rf .git
