@@ -7,6 +7,8 @@ AMIX_VIMRC_PATH=${AMIX_VIMRC_PATH:-/usr/local/vim_runtime}
 AMIX_VIMRC_VERSION=${AMIX_VIMRC_VERSION:-master}
 DSF_PATH=${DSF_PATH:-/usr/local/diff-so-fancy}
 DSF_VERSION=${DSF_VERSION:-master}
+PURE_PATH=${PURE_PATH:-/usr/local/pure-prompt}
+PURE_VERSION=${PURE_VERSION:-main}
 
 apt-get update
 # Install git if not already installed
